@@ -1,0 +1,48 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700,300);
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+.encabezado{
+	background: #2F4F4F;
+}
+.logo{
+	padding: 25px;
+}
+li{
+	display: inline-block;
+}
+.pull-right{
+	padding: 25px;
+	margin: 10px 0px;
+}
+.pull-right{
+	text-align: center;
+}
+.pull-right li{
+	display: inline-block;
+}
+.pull-right a{
+	display: block; /*para que tengan mas cuerpo*/
+	padding: 15px 20px;/**/
+	color:#555;
+	font-family:"Oswald",Arial, sans-serif;/*definido por google*/
+	/*text-transform: uppercase; letras en mayuscula*/
+	text-decoration: none;/*para que no tenga el subrayado de enlace*/
+	transition:all 0.5s;
+}
+.pull-right a:hover{
+	text-decoration: none;/*nos aseguramos q no tenga subrayado*/
+	background: #D0D0D0;
+	transform: scale(1.2);/*agranda 1.2 =20% 1.5=50%*/
+}
